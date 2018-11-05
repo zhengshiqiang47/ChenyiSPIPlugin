@@ -31,7 +31,7 @@
   <actions>
     <!-- Add your actions here -->
     <action id="SPIGenerator" class="com.chenyi.GenarateAction" text="Genarate SPI">
-      <add-to-group group-id="WindowMenu" anchor="first"/>
+      <add-to-group group-id="GenerateGroup" anchor="first"/>
     </action>
   </actions>
 

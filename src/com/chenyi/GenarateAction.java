@@ -65,15 +65,6 @@ public class GenarateAction extends AnAction implements ActionListener {
         showDialog();
     }
 
-
-
-    @Override
-    public void update(AnActionEvent event) {
-        super.update(event);
-        this.event = event;
-        showDialog();
-    }
-
     public PsiClass createSPIClass(AnActionEvent event,String serviceName,boolean isNeedModule) {
         System.out.println("addSPIClass");
         Project project = event.getData(LangDataKeys.PROJECT);
