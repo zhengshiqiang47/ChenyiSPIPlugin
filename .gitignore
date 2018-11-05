@@ -1,0 +1,10 @@
+!.gitignore
+target
+.idea
+*.iml
+*.log
+*.bat
+.project
+.classpath
+.settings
+antx.properties
